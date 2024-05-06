@@ -1,0 +1,18 @@
+/* Footer.css */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #8bbcf8;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  

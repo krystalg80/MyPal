@@ -1,0 +1,82 @@
+.buy-now-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+    gap: 20px;
+   
+  }
+.container {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+  }
+
+.collar-image {
+    width: 300px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire space */
+    border: 2px solid #ccc; /* Border style */
+    border-radius: 8px; /* Border radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for 3D effect */
+  }
+  
+.collar-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px; /* Adjust spacing between rows */
+  }
+  
+.collar-item {
+    width: 45%; /* Adjust width to fit two items per row */
+  }
+  
+  @media (max-width: 768px) {
+    .collar-item {
+      width: 90%; /* Adjust width for smaller screens */
+    }
+  }
+.buy-now-container {
+    background-color: #f8f8f8; /* Light gray background color */
+    padding: 20px; /* Add padding around the container */
+  }
+
+.collar-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+  }
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Blue button background color */
+    color: #fff; /* White button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+} 
+.button:hover {
+    background-color: #555; /* Darken button background on hover */
+    color: #fff; /* Change button text color on hover */
+  }
+  
+h2 {
+    font-size: 20px; /* Increase heading font size */
+    color: #333; /* Set heading text color */
+  }
+  
+p {
+    font-size: 16px; /* Increase paragraph font size */
+    line-height: 1.5; /* Adjust line height for better readability */
+    color: #666; /* Set paragraph text color */
+  }
+.collar-item {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to each collar item */
+  }
+.collar-item {
+    transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
+  }
+  
+.form-group {
+    margin-bottom: 20px; /* Add space between form fields */
+}
